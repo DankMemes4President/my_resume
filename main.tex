@@ -190,48 +190,38 @@
  
  \item[{\href{https://bits-oasis.org}{BITS Fest Backend Infrastructure}, Backend Developer}] 
  % A backend infrastructure developed to handle the technical backbone of BITS Pilani's cultural fest, Oasis'22. Everything from registrations workflow, APIs, internal club portals, registration software to building the wallet infrastructure of the fest app that allowed food ordering, tickets purchase and transferring funds was handled by this infrastructure. With app downloads reaching over \textbf{1000}, \textbf{1.6 Cr INR} worth of transactions was handled by the wallet system. The registration portal handled around \textbf{16 Lacs INR} worth of registration fees. Most of the code was made in \textit{Django} and \textit{Django-REST framework} with \textit{Docker}, \textit{Nginx} and \textit{PostgreSQL} to deploy the project. Also used \textit{Redis} and \textit{Celery} to implement asynchronous job queues.
--  Developed REST APIs for the official App and Website of BITS Pilani's annual sports (BOSM) , cultural (Oasis) and tech fest (Apogee)
-using \textit{Django REST Framework} and \textit{PostgreSQL} as a database service.
+- Developed \textit{REST APIs} for BITS Pilani's annual events (BOSM, Oasis, Apogee) using \textit{Django REST Framework} and \textit{PostgreSQL}.
 
-- Created several internal team software like Registrations, Event and Inventory management tools using \textit{Django} that accounted for \textbf{8 Lacs} and
-\textbf{40 Lacs} of revenue in registrations for BOSM and Oasis respectively.
+- Created internal tools using \textit{Django} for Registrations, Event, and Inventory management, driving revenues of \textbf{8 Lacs} and \textbf{40 Lacs} for BOSM and Oasis.
 
-- Developed and Maintained a Wallet system made using \textit{Django REST Framework}, capable of performing operations asynchronously by
-using Realtime Database and Message Queue services like \textit{RabbitMQ}, \textit{Celery} and \textit{Firebase}. 
+- Designed and maintained an asynchronous Wallet system using \textit{Django REST Framework}, integrated with \textit{RabbitMQ}, \textit{Celery}.
 
-- Implemented systems for food ordering,
-ticket purchasing and addition/transfer of money between each wallet managed to garner transactions worth \textbf{14 Lacs}, \textbf{2 Cr} and \textbf{35 Lacs} for
-BOSM, Oasis and Apogee respectively. Managed \textbf{5000+} total users with a peak concurrent user count of \textbf{1000+} with minimal downtime.
+- Implemented features like food ordering, ticket purchasing, and wallet operations, resulting in transactions worth \textbf{14 Lacs}, \textbf{2 Cr}, and \textbf{35 Lacs} for BOSM, Oasis, and Apogee.
 
--  Deployed the project to a Linux Server using \textit{Docker} for containerization and \textit{Nginx} as a reverse proxy for load balancing.
-\vspace{0.2cm}
+- Managed \textbf{5000+ users} with a peak of \textbf{1000+ concurrent users}, ensuring minimal downtime.
+
+- Deployed the project on a \textit{Linux Server} using \textit{Docker} for containerization and \textit{Nginx} for load balancing.\vspace{0.2cm}
  
 \item[{{GO-Wallet}, Backend Developer}]
-- Developed a \textit{Golang} version of a wallet system from scratch, which was to be used in the BITS Pilani Fest apps for transactions, ticketing and purchases.
+- Created a Golang-based wallet system for BITS Pilani Fest apps, enabling transactions and purchases.
 
-- Developed REST-APIs and Backend to support a food ordering system all with a cart functionality, order status functionality and supporting functionality for Vendors to manage their orders.
+- Developed \textit{REST APIs} and backend for a food ordering system with cart and order management.
 
-- Implemented a transaction and Food ordering system which allowed people to buy, send and add money to their wallets and order food from their apps.
+- Utilized Facebook's \textit{entgo ORM} for \textit{PostgreSQL} database communication with structured schemas.
 
-- Developed a ticketing system and it's supporting infrastructure (ticket-scanner apps) to allow seamless entry into concerts and events.
-
-- Utilized Facebook's \textit{entgo} ORM framework to communicate with the \textit{PostgreSQL} database and form well defined schemas.
-
--  Implemented a microservice architecture pattern to allow scalability of \textit{SSE servers} using \textit{Docker} and \textit{Redis} to provide real-time updates
-to the app.
-
+- Implemented microservices using \textit{Docker} and \textit{Redis} for scalable \textit{SSE servers}, enabling real-time app updates.
 \vspace{0.2cm}
 
 
  \item[{\href{https://yearbook.bits-sarc.org}{Yearbook Portal}, Core Backend Developer}] 
  % Working with a frontend developer, we created a portal for pre-final year students to make a digital yearbook. Utilized \textit{Express.js} framework for \textit{Node JS} and \textit{MongoDB} as a database service.
-- Built and helped maintain \textit{REST APIs} written in \textit{Express.js} using \textit{Node JS}.
+- Developed and maintained \textit{Express.js} \textit{REST APIs} in \textit{Node.js}.
 
-- Managed File Uploads and Database using \textit{MongoDB} and \textit{Mongoose} for over 1000 students.
+- Managed file uploads and \textit{MongoDB} database (\textit{Mongoose}) for 1000+ students.
 
-- Fixed key security vulnerabilities in the existing codebase and implemented a \textit{JWT} based Auth System.
+- Rectified critical security vulnerabilities, introduced \textit{JWT}-based Auth System.
 
-- Deployed using \textit{Docker} and \textit{Nginx} on a \textit{Digital Ocean} server.
+- Deployed on \textit{Digital Ocean} server using \textit{Docker} and \textit{Nginx}.
 %  \item[{\href{https://github.com/thealphadollar/messiah}{Messiah}, Microsoft CodeFunDo++ 2018}] 
 %  Service to predict magnitude of Earthquake using Tensorflow: web-app optimization leading to 230\% lesser loading time. Upscaled and improved version bagged runners up under open category in {\href{https://www.linkedin.com/company/streethack/?originalSubdomain=in}{Streethack Blockhack}}.
  
@@ -254,9 +244,9 @@ to the app.
 \vspace{0.2cm}
 
 \begin{tabular}{r|p{15cm}}
-\textsc{Languages} & JavaScript (Node.js), Python, C, C++, Golang, HTML, CSS \\
+\textsc{Languages} & JavaScript (Node.js), Python, C, C++, Golang, HTML \\
 \textsc{Libraries / Frameworks} & Django, Django-REST framework, Express.js \\
-\textsc{Data Storage / Handling} & SQLite, MongoDB, PostgreSQL \\
+\textsc{Data Storage / Handling} & MongoDB, PostgreSQL \\
 \textsc{Systems / Platforms} & Azure, AWS EC2 and other linux servers \\
 \textsc{Sys Admin / Technologies} & Docker, Nginx\\
 
@@ -273,23 +263,9 @@ to the app.
 \vspace{0.2cm}
 \item \textbf{Department of Visual Media, BITS Pilani}: Oasis Coordinator and Senior Backend Developer in the technical committee responsible of handling every tech-related software for BITS Pilani's fests and more. 
 
-\item \textbf{Google Developer Students Clubs, BITS Pilani}: Member of Google's Developer student club of BITS Pilani, working on community development tech projects.
-
-\item\textbf{Association of Computation and Machinery, BITS Pilani}: Member of ACM's student chapter of BITS Pilani mentoring juniors and working on campus projects.
-
 \item\textbf{Student Alumni Relation Cell, BITS Pilani}: Member of the student volunteer team working under the Alumni Relations Cell of BITS Pilani responsible for organizing Alumni related events.\\
 
 \end{itemize}
-
-
-%----------------------------------------------------------------------------------------
-%	Technical Interests
-%----------------------------------------------------------------------------------------
-
-\vspace{0.2cm}
-\section{\textcolor{primary}{Technical Interests}}
-\vspace{0.1cm}
-\noindent Cloud Computing, Serverside Development, SysAdmin, DevOps, Linux and Cyber Security.\\
 
 %----------------------------------------------------------------------------------------
 %	Scholastic Achievements
